@@ -22,7 +22,9 @@
                             <th class="px-6 py-3">Research Grant</th>
                             <th class="px-6 py-3">Target Completion Date</th>
                             <th class="px-6 py-3">Status</th>
+                            <th class="px-6 py-3">Remarks</th>
                             <th class="px-6 py-3">Actions</th>
+
                         </tr>
                     </thead>
                     <tbody>
@@ -32,6 +34,7 @@
                                 <td class="px-6 py-4 text-sm text-gray-800 dark:text-gray-200">{{ $milestone->researchGrant->project_title }}</td>
                                 <td class="px-6 py-4 text-sm text-gray-800 dark:text-gray-200">{{ $milestone->target_completion_date }}</td>
                                 <td class="px-6 py-4 text-sm text-gray-800 dark:text-gray-200">{{ $milestone->status }}</td>
+                                <td class="px-6 py-4 text-sm text-gray-800 dark:text-gray-200">{{ $milestone->remark }}</td>
                                 <td class="px-6 py-4 text-sm text-gray-800 dark:text-gray-200 flex space-x-8">
                                     <!-- View Icon -->
                                     <a href="{{ route('projectMilestones.show', $milestone->id) }}" class="text-blue-600 hover:text-blue-800">

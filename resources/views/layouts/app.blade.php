@@ -20,7 +20,7 @@
         <!-- Custom Styles -->
         <style>
             .background-image {
-                background-image: url('https://t4.ftcdn.net/jpg/09/35/51/21/360_F_935512195_aCar41hh9vksUWlB4KvXZ6qsRBtV2XN0.jpg');
+                background-image: url('https://img.freepik.com/premium-photo/noir-office-nightfall-dark-office-photo_960396-249851.jpg?semt=ais_hybrid');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
