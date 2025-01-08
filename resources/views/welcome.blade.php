@@ -35,7 +35,7 @@
         }
 
         #home {
-            background: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpghthttps://t3.ftcdn.net/jpg/03/97/28/76/360_F_397287680_LpQjjhmEAD3V9fF397cZkHSumUWMeWoq.jpgtps://t4.ftcdn.net/jpg/05/71/83/47/240_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg') no-repeat center center fixed;
+            background: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpghttps://t4.ftcdn.net/jpg/05/71/83/47/240_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg') no-repeat center center fixed;
             background-size: cover;
             color: #ffffff;
             display: flex;
