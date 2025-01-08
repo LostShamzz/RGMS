@@ -7,8 +7,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
+    <!-- WOW.js for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
     <style>
         body {
@@ -32,43 +34,45 @@
             color: #ff8c00 !important;
         }
 
-        .welcome-section {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            background: url('https://static.vecteezy.com/system/resources/previews/004/256/686/non_2x/abstract-dark-pink-gradient-geometric-background-modern-background-design-wave-liquid-shapes-composition-creative-templates-fit-for-presentation-design-website-basis-for-banners-wallpapers-free-vector.jpg') no-repeat center center fixed;
+        #home {
+            background: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpghthttps://t3.ftcdn.net/jpg/03/97/28/76/360_F_397287680_LpQjjhmEAD3V9fF397cZkHSumUWMeWoq.jpgtps://t4.ftcdn.net/jpg/05/71/83/47/240_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg') no-repeat center center fixed;
             background-size: cover;
-            color: white;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
         }
 
-        .welcome-section h1 {
-            font-size: 3.0rem;
+        #home h3 {
+            letter-spacing: 2px;
+            animation-delay: 0.9s;
+        }
+
+        #home h1 {
+            font-size: 3rem;
             margin-bottom: 20px;
+            animation-delay: 1.6s;
         }
 
-        .welcome-section p {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-        }
-
-        .btn-custom {
-            padding: 10px 20px;
+        #home .btn {
+            background: #26253a;
+            border: none;
             border-radius: 25px;
+            color: #999;
+            font-size: 20px;
             font-weight: bold;
-            transition: all 0.3s;
-            background: linear-gradient(135deg, #4CAF50, #2E7D32);
-            color: white;
-            text-decoration: none;
+            letter-spacing: 4px;
+            padding: 16px 38px;
+            margin-top: 28px;
+            transition: all 0.4s ease-in-out;
+            animation-delay: 2s;
         }
 
-        .btn-custom:hover {
-            background: linear-gradient(135deg, #2E7D32, #4CAF50);
-            box-shadow: 0px 4px 15px rgba(0, 255, 0, 0.4);
-            text-decoration: none;
+        #home .btn:hover {
+            background: #ffffff;
+            color: #26253a;
         }
     </style>
 </head>
@@ -100,11 +104,14 @@
             </div>
         </div>
     </nav>
+
     <!-- Welcome Section -->
-    <section class="welcome-section">
-        <h1>Welcome to the Research Grant Management System</h1>
-        <p>Your one-stop solution for managing research grants effectively and efficiently.</p>
-        <a href="{{ url('/dashboard') }}" class="btn btn-custom">Get Started</a>
+    <section id="home">
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <h3 class="animate__animated animate__bounceIn">Hello! You are welcome to</h3>
+            <h1 class="animate__animated animate__fadeInUp">Research Grant Management System</h1>
+            <a href="{{ url('/dashboard') }}" class="btn btn-default animate__animated animate__fadeInUp">Get Started</a>
+        </div>
     </section>
 
     <!-- Bootstrap JS -->
