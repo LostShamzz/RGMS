@@ -22,11 +22,11 @@
         }
 
         .navbar {
-            background-color: rgba(255, 255, 255, 0.7);
+            background-color: rgba(0, 0, 0, 0.7);
         }
 
         .navbar a {
-            color: rgb(0, 0, 0) !important;
+            color: rgb(242, 231, 109) !important;
             font-weight: bold;
         }
 
@@ -35,7 +35,7 @@
         }
 
         #home {
-            background: url('https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpghttps://t4.ftcdn.net/jpg/05/71/83/47/240_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg') no-repeat center center fixed;
+            background: url('https://wallpapers.com/images/hd/high-quality-black-colorful-waves-wv8q8gnhznq5o0ps.jpg') no-repeat center center fixed;
             background-size: cover;
             color: #ffffff;
             display: flex;
@@ -57,10 +57,10 @@
         }
 
         #home .btn {
-            background: #26253a;
+            background: #d80303;
             border: none;
             border-radius: 25px;
-            color: #999;
+            color: #ffffff;
             font-size: 20px;
             font-weight: bold;
             letter-spacing: 4px;
@@ -80,7 +80,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Research Grant System</a>
+           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -110,6 +110,7 @@
         <div class="container d-flex flex-column align-items-center justify-content-center">
             <h3 class="animate__animated animate__bounceIn">Hello! You are welcome to</h3>
             <h1 class="animate__animated animate__fadeInUp">Research Grant Management System</h1>
+            
             <a href="{{ url('/dashboard') }}" class="btn btn-default animate__animated animate__fadeInUp">Get Started</a>
         </div>
     </section>

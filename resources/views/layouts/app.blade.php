@@ -20,7 +20,7 @@
         <!-- Custom Styles -->
         <style>
             .background-image {
-                background-image: url('https://damelinnew.storage.googleapis.com/wp-content/uploads/2024/02/05115051/2-Damelin-Jan-2024-Mastering-the-art-of-Office-Administration-Tips-for-boosting-productivity-and-efficiency-in-the-workplace-1536x864.png');
+                background-image: url('https://t4.ftcdn.net/jpg/09/35/51/21/360_F_935512195_aCar41hh9vksUWlB4KvXZ6qsRBtV2XN0.jpg');
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;

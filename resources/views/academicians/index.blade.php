@@ -73,10 +73,12 @@
 <style>
     /* Ensure spacing is consistent throughout */
     .btn {
-        padding: 10px 24px;
-        font-size: 14px;
-        border-radius: 8px;
-    }
+    padding: 10px 24px;
+    font-size: 14px;
+    border-radius: 8px;
+    float: right;
+}
+
 
     .btn:hover {
         transition: background-color 0.3s ease-in-out;

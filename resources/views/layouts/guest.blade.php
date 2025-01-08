@@ -14,7 +14,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans text-gray-900 antialiased" style="background-image: url('https://static.vecteezy.com/system/resources/previews/004/256/686/non_2x/abstract-dark-pink-gradient-geometric-background-modern-background-design-wave-liquid-shapes-composition-creative-templates-fit-for-presentation-design-website-basis-for-banners-wallpapers-free-vector.jpg'); background-size: cover; background-position: center;">
+    <body class="font-sans text-gray-900 antialiased" style="background-image: url('https://wallpapers.com/images/hd/high-quality-black-colorful-waves-wv8q8gnhznq5o0ps.jpg'); background-size: cover; background-position: center;">
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0">
 
             <div>
